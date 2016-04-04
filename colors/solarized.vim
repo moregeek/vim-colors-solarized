@@ -654,6 +654,8 @@ exe "hi! DiffDelete"     .s:fmt_none   .s:fg_red    .s:bg_base02
 exe "hi! DiffText"       .s:fmt_none   .s:fg_blue   .s:bg_base02 .s:sp_blue
     endif
 endif
+exe "hi! BookmarkSign"                 .s:fmt_none  .s:fg_orange .s:bg_base02
+exe "hi! BookmarkAnnotationSign"       .s:fmt_none  .s:fg_orange .s:bg_base02
 exe "hi! Conceal"        .s:fmt_none   .s:fg_blue   .s:bg_none
 exe "hi! SignColumn"     .s:fmt_none   .s:fg_none   .s:bg_base02
 exe "hi! SpellBad"       .s:fmt_curl   .s:fg_none   .s:bg_none    .s:sp_red
